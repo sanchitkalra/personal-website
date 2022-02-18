@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import avatar from './../public/folded-hands.png'
 import Image from 'next/image'
+import { SocialIcon } from 'react-social-icons'
+
+import avatar from './../public/folded-hands.png'
 
 export default function Home() {
   return (
@@ -11,15 +13,15 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-grow flex-col items-center justify-center p-16">
-        <div class="mb-4 flex flex-col">
-          <div class="grid flex-auto place-items-center pb-4">
-            <div class="h-24 w-24">
+        <div className="mb-4 flex flex-col">
+          <div className="grid flex-auto place-items-center pb-4">
+            <div className="h-24 w-24">
               <Image src={avatar} alt="Picture of the author"></Image>
             </div>
           </div>
-          <div class="flex flex-auto flex-col items-center justify-center">
-            <h1 class="text-center text-6xl">Sanchit Kalra</h1>
-            <h3 class="text-center text-2xl">
+          <div className="flex flex-auto flex-col items-center justify-center">
+            <h1 className="text-center text-6xl">Sanchit Kalra</h1>
+            <h3 className="text-center text-2xl">
               full stack developer, student, little nerd
             </h3>
           </div>
@@ -81,18 +83,29 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center text-stone-200">
-        <p className="flex items-center justify-center">
-          Feel free to reach out at&nbsp;{' '}
-          <a
+      <footer className="flex h-24 w-full flex-col items-center justify-center text-stone-200">
+        <p className="flex items-center justify-center text-xl">
+          Built with 🤍{' '}
+          {/* <a
             className="text-sky-400 underline"
             href="https://github.com/sanchitkalra"
             target="_blank"
             rel="noopener noreferrer"
           >
             @sanchitkara
-          </a>
+          </a> */}
         </p>
+        <div className="mt-2 mb-8 flex flex-row">
+          <SocialIcon className="mx-2" url="https://github.com/sanchitkalra" />
+          <SocialIcon
+            className="mx-2"
+            url="https://twitter.com/sanchit_kalra1"
+          />
+          <SocialIcon
+            className="mx-2"
+            url="https://www.linkedin.com/in/sanchitkalraa/"
+          />
+        </div>
       </footer>
     </div>
   )
