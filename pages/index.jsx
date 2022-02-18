@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-black text-white">
       <Head>
-        <title>Create Next App</title>
+        <title>Sanchit Kalra</title>
         <link rel="icon" href="/folded-hands.png" />
       </Head>
 
@@ -27,12 +27,27 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid max-w-lg flex-auto place-items-center p-6 text-xl sm:text-lg">
-          <p>Something about meeeeeee </p>
+        <div className="grid max-w-xl flex-auto p-6 text-xl">
+          <p className="py-2">
+            I am Sanchit Kalra. I'm currently in my sophomore year double
+            majoring in Math and Electrical Engineering at BITS Pilani,
+            Hyderabad Campus.
+          </p>
+          <p className="py-2">
+            I mostly work with Node and Express but occasionally tip into the
+            land of CSS and frontend development, but my real love still is
+            backend development. I'm working on learning TailwindCSS and
+            Typescript at the moment. I've started learning SwiftUI too and find
+            it pretty interesting, feels quite similar to React.
+          </p>
+          <p className="py-2">
+            I know HTML, CSS, JavaScript, Firebase, Express, Node, MongoDB and
+            would love to work on any project that involves these technologies.
+          </p>
         </div>
 
-        <div className="mt-16 flex max-w-lg flex-col text-xl sm:flex-row sm:text-left sm:text-lg">
-          <div className="mr-6 flex-auto text-stone-400">Work</div>
+        <div className="mt-16 flex max-w-lg flex-col text-lg sm:flex-row sm:text-left">
+          <div className="mr-6 flex-auto text-xl text-stone-400">Work</div>
           <div className="flex-auto">
             <div className="pb-5">
               <h3 className="text-xl">bp-hc.xyz</h3>
