@@ -27,7 +27,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid max-w-xl flex-auto p-6 text-xl">
+        <div className="grid max-w-xl flex-auto text-xl">
           <p className="py-2">
             I am Sanchit Kalra. I'm currently in my sophomore year double
             majoring in Math and Electrical Engineering at BITS Pilani,
@@ -46,7 +46,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mt-16 flex max-w-lg flex-col text-lg sm:flex-row sm:text-left">
+        <div className="mt-16 flex max-w-xl flex-col text-lg sm:flex-row sm:text-left">
           <div className="mr-6 flex-auto text-xl text-stone-400">Work</div>
           <div className="flex-auto">
             <div className="pb-5">
