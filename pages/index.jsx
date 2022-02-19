@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { SocialIcon } from 'react-social-icons'
 
 import avatar from '../public/folded-hands.png'
@@ -51,6 +52,13 @@ export default function Home() {
             I know HTML, CSS, JavaScript, Firebase, Express, Node, MongoDB and
             would love to work on any project that involves these technologies.
           </p>
+          <p className="py-2">
+            Also, feel free to go through my{' '}
+            <Link href="/blog">
+              <a className="text-sky-400 underline">blog</a>
+            </Link>
+            .
+          </p>
         </div>
 
         <div className="mt-16 flex max-w-xl flex-col text-lg sm:text-left">
@@ -65,51 +73,6 @@ export default function Home() {
                 />
               )
             })}
-            {/* <div className="pb-5">
-              <h3 className="text-xl">bp-hc.xyz</h3>
-              <p>
-                A URL shortener for the students of BPHC. Uses Firebase and
-                React.
-              </p>
-              <a
-                className="text-sky-400 underline"
-                href="https://bp-hc.xyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit
-              </a>
-            </div>
-            <div className="pb-5">
-              <h3 className="text-xl">E-Cell Launchpad Backend</h3>
-              <p>
-                Wrote the backend and led the dev team for the annual Launchpad
-                event. Used Next, Express, MongoDB, JWT.
-              </p>
-              <a
-                className="text-sky-400 underline"
-                href="https://ecellbphc.in"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit
-              </a>
-            </div>
-            <div className="pb-5">
-              <h3 className="text-xl">Timekeeper</h3>
-              <p>
-                A to-do list app for iOS devices. Uses SwiftUI and MongoDB
-                Realm.
-              </p>
-              <a
-                className="text-sky-400 underline"
-                href="https://github.com/sanchitkalra/timekeeper"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit
-              </a>
-            </div> */}
           </div>
         </div>
       </main>
