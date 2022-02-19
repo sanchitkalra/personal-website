@@ -7,10 +7,10 @@ const navItems = [
     name: 'Home',
     link: '/',
   },
-  {
-    name: 'Stack',
-    link: '/stack',
-  },
+  // {
+  //   name: 'Stack',
+  //   link: '/stack',
+  // },
   {
     name: 'Blog',
     link: '/blog',
