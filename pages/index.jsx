@@ -2,7 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { SocialIcon } from 'react-social-icons'
 
-import avatar from './../public/folded-hands.png'
+import avatar from '../public/folded-hands.png'
+import projects from '../data/projects'
+import Project from '../components/project'
+import Navbar from '../components/navbar'
 
 export default function Home() {
   return (
@@ -11,6 +14,10 @@ export default function Home() {
         <title>Sanchit Kalra</title>
         <link rel="icon" href="/folded-hands.png" />
       </Head>
+
+      <header>
+        <Navbar />
+      </header>
 
       <main className="flex flex-grow flex-col items-center justify-center p-16">
         <div className="mb-4 flex flex-col">
@@ -46,10 +53,19 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mt-16 flex max-w-xl flex-col text-lg sm:flex-row sm:text-left">
-          <div className="mr-6 flex-auto text-xl text-stone-400">Work</div>
+        <div className="mt-16 flex max-w-xl flex-col text-lg sm:text-left">
+          <div className="flex-auto pb-4 text-xl text-stone-400">Projects</div>
           <div className="flex-auto">
-            <div className="pb-5">
+            {projects.map((project) => {
+              return (
+                <Project
+                  name={project.name}
+                  description={project.description}
+                  links={project.links}
+                />
+              )
+            })}
+            {/* <div className="pb-5">
               <h3 className="text-xl">bp-hc.xyz</h3>
               <p>
                 A URL shortener for the students of BPHC. Uses Firebase and
@@ -93,7 +109,7 @@ export default function Home() {
               >
                 Visit
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
