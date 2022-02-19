@@ -44,18 +44,18 @@ export default function Blog({ allPostsData }) {
         <Navbar />
       </header>
 
-      <main className="flex flex-col items-center justify-center p-16">
+      <main className="flex flex-col justify-center p-16">
         <div className="my-16 flex flex-col">
           <div className="flex flex-auto flex-col items-center justify-center">
             <h1 className="text-center text-6xl">blog</h1>
           </div>
         </div>
-        <div className="grid place-items-start text-xl">
+        <div className="mx-auto mt-8 max-w-md text-xl md:mt-16 md:w-3/4">
           <ul>
             {allPostsData.map(({ id, date, title }, index) => (
-              <li key={index} className="mb-4">
+              <li key={index} className="mb-6">
                 <Link href={`/blog/${id}`}>
-                  <a className="text-left text-sky-400 underline">{title}</a>
+                  <a className="text-left text-sky-400">{title}</a>
                 </Link>
                 <br />
                 <span>{date}</span>
