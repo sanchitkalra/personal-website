@@ -7,6 +7,8 @@ import avatar from '../public/folded-hands.png'
 import projects from '../data/projects'
 import Project from '../components/project'
 import Navbar from '../components/navbar'
+import Work from '../components/work'
+import exp from '../data/work'
 
 export default function Home() {
   return (
@@ -72,6 +74,14 @@ export default function Home() {
                   links={project.links}
                 />
               )
+            })}
+          </div>
+        </div>
+        <div className="mt-16 flex max-w-xl flex-col text-lg sm:text-left">
+          <div className="flex-auto pb-4 text-xl text-stone-400">Work</div>
+          <div className="flex-auto">
+            {exp.map((work) => {
+              return <Work name={work.name} roles={work.roles} />
             })}
           </div>
         </div>
