@@ -37,22 +37,28 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid max-w-xl flex-auto text-xl">
+        <div className="grid max-w-xl flex-auto text-xl text-stone-400">
           <p className="py-2">
             I am Sanchit Kalra. I'm currently in my sophomore year double
-            majoring in Math and Electrical Engineering at BITS Pilani,
-            Hyderabad Campus.
+            majoring in Math and Electrical Engineering at{' '}
+            <p className="text-white">BITS Pilani, Hyderabad Campus.</p>
           </p>
           <p className="py-2">
-            I mostly work with Node and Express but occasionally tip into the
-            land of CSS and frontend development, but my real love still is
-            backend development. I'm working on learning TailwindCSS and
-            Typescript at the moment. I've started learning SwiftUI too and find
-            it pretty interesting, feels quite similar to React.
+            I mostly work with <p className="text-white">Node and Express</p>{' '}
+            but occasionally tip into the land of CSS and frontend development,
+            but my real love still is backend development. I'm working on{' '}
+            <p className="text-white">learning TailwindCSS and Typescript</p> at
+            the moment. I've started
+            <p className="text-white">learning SwiftUI</p> too and find it
+            pretty interesting, feels quite similar to React.
           </p>
           <p className="py-2">
-            I know HTML, CSS, JavaScript, Firebase, Express, Node, MongoDB and
-            would love to work on any project that involves these technologies.
+            I know{' '}
+            <p className="text-white">
+              HTML, CSS, JavaScript, Firebase, Express, Node, MongoDB
+            </p>{' '}
+            and would love to work on any project that involves these
+            technologies.
           </p>
           <p className="py-2">
             Also, feel free to go through my{' '}
