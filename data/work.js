@@ -17,13 +17,13 @@ const work = [
         des: 'Senior Tech Team Member',
         description:
           'Responsible for leading a team of 7 people for the development of the Launchpad website and writing the backend. Also responsible for deployment and payments on the platform itself.',
-        timeline: ['March 2021', null],
+        timeline: ['August 2021', null],
       },
       {
         des: 'Junior Tech Team Member',
         description:
           'Responsible for developing the backend for the Launchpad event.',
-        timeline: ['Dec 2020', 'March 2021'],
+        timeline: ['Dec 2020', 'August 2021'],
       },
     ],
   },
