@@ -3,12 +3,7 @@ const projects = [
     name: 'bp-hc.xyz',
     description:
       'A URL shortener for the students of BPHC. Uses Firebase and React.',
-    links: [
-      {
-        type: 'Visit',
-        url: 'https://bp-hc.xyz',
-      },
-    ],
+    links: [],
   },
   {
     name: 'E-Cell Launchpad Backend',
