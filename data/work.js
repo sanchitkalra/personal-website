@@ -1,5 +1,16 @@
 const work = [
   {
+    name: 'CSIR-CSIO',
+    roles: [
+      {
+        des: 'Research Intern',
+        description:
+          'Working in the Food Vision Lab at the Centre of Excellence for Intelligent Sensors and Systems (ISenS). Working on Computer Vision, Data Acquisition, and Deep Learning.',
+        timeline: ['June 2022', null],
+      },
+    ],
+  },
+  {
     name: 'Student Welfare Department',
     roles: [
       {
