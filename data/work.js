@@ -6,7 +6,7 @@ const work = [
         des: 'Research Intern',
         description:
           'Working in the Food Vision Lab at the Centre of Excellence for Intelligent Sensors and Systems (ISenS). Working on Computer Vision, Data Acquisition, and Deep Learning.',
-        timeline: ['June 2022', null],
+        timeline: ['June 2022', 'July 2022'],
       },
     ],
   },
@@ -14,10 +14,16 @@ const work = [
     name: 'Student Welfare Department',
     roles: [
       {
+        des: 'Technical Lead',
+        description:
+          'Responsible for the entire technical infrastructure of the SWD and leading the junior team.',
+        timeline: ['July 2022', null],
+      },
+      {
         des: 'Tech Team Member',
         description:
           'Responsible for maintainance and upkeep of SWD website and addressing technical issues faced by the General Body.',
-        timeline: ['July 2021', null],
+        timeline: ['July 2021', 'July 2022'],
       },
     ],
   },
