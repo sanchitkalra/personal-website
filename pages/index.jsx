@@ -69,6 +69,7 @@ export default function Home() {
             {projects.map((project) => {
               return (
                 <Project
+                  key={project.name}
                   name={project.name}
                   description={project.description}
                   links={project.links}
