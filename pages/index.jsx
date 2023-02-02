@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="grid max-w-xl flex-auto text-xl">
           <p className="py-2">
-            I am Sanchit Kalra. I'm currently in my sophomore year double
+            I am Sanchit Kalra. I'm currently in my junior year double
             majoring in Math and Electrical Engineering at BITS Pilani,
             Hyderabad Campus.
           </p>
