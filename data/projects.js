@@ -1,5 +1,20 @@
 const projects = [
   {
+    name: 'BPHC Cab Share',
+    description:
+      'A fast and simple way for students of BPHC to find people to share cabs with from and to campus as a Progressive Web App. Built with NextJS, Supabase, TypeScript, TailwindCSS.',
+    links: [
+      {
+        type: 'Visit',
+        url: 'https://bphc-cab-share.vercel.app/',
+      },
+      {
+        type: 'GitHub',
+        url: 'https://github.com/sanchitkalra/bphc-cab-share',
+      },
+    ],
+  },
+  {
     name: 'bp-hc.xyz',
     description:
       'A URL shortener for the students of BPHC. Uses Firebase and React.',
