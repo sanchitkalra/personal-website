@@ -18,7 +18,12 @@ const projects = [
     name: 'bp-hc.xyz',
     description:
       'A URL shortener for the students of BPHC. Uses Firebase and React.',
-    links: [],
+    links: [
+      {
+        type: 'GitHub',
+        url: 'https://github.com/sanchitkalra/bphc-url-shortner',
+      },
+    ],
   },
   {
     name: 'E-Cell Launchpad Backend',
