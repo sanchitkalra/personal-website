@@ -113,7 +113,7 @@ function Nav() {
                   return (
                     <Link href={navItem.link}>
                       <a className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
-                        {navItem.link}
+                        {navItem.displayName}
                       </a>
                     </Link>
                   )
